@@ -1,5 +1,6 @@
 * {
 	box-sizing: border-box;
+	font-family: "Roboto Mono";
 }
 
 body {
@@ -10,23 +11,31 @@ body {
 .navbar {
 	width: 100%;
 	height: 60px;
-	background: blue;
+	background: white;
+	display: flex;
+	align-items: center;
 }
 
 .logo {
+	margin-left: 1rem;
 	font-size: 32px;
-	font-weight: 600;
-	color: yellow;
+}
+
+.logo strong {
+	color: blue;
 }
 
 .canvas-ctn {
-	/* text-align: center;
-	margin-top: 48px; */
+	text-align: center;
+	margin-top: 48px;
 }
 
 #canvas {
 	width: 600px;
 	height: 600px;
-	background: pink;
+	background: white;
+}
+#footer {
+	text-align: center;
 }
 
